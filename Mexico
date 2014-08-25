@@ -1,4 +1,3 @@
-
 key_for_mex_game = []
 for i in range(45,48):
     key_for_mex_game.append(split_text[i]) 
