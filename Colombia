@@ -1,0 +1,27 @@
+key_for_colombia_game = []
+for i in range(89,92):
+    key_for_colombia_game.append(split_text[i]) 
+for i in range(93,96):
+    key_for_colombia_game.append(split_text[i]) 
+for i in range(97,100):
+    key_for_colombia_game.append(split_text[i]) 
+for i in range(101,104):
+    key_for_colombia_game.append(split_text[i])
+for i in range(105,108):
+    key_for_colombia_game.append(split_text[i])
+for i in range(109,112):
+    key_for_colombia_game.append(split_text[i])
+for i in range(113,116):
+    key_for_colombia_game.append(split_text[i]) 
+for i in range(117,120):
+    key_for_colombia_game.append(split_text[i]) 
+for i in range(121,124):
+    key_for_colombia_game.append(split_text[i]) 
+for i in range(125,128):
+    key_for_colombia_game.append(split_text[i])
+for i in range(129,132):
+    key_for_colombia_game.append(split_text[i])
+for i in range(133,136):
+    key_for_colombia_game.append(split_text[i])    
+dictionary_country["Colombia"]=key_for_colombia_game
+print(dictionary_country["Colombia"])

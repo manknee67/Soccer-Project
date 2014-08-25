@@ -1,0 +1,28 @@
+class world_cup:
+    def __init__(self, country):
+        self.country = country
+        
+    def get_goal_lengths(self):
+        goal = []
+        info = dictionary_country[self.country]
+        for i in range(len(info)):
+            if i%3==0:
+                goal.append(float(info[i]))
+        print(goal)
+        
+    def get_time_goal(self):
+        info = dictionary_country[self.country]
+        time_goal = []
+        for i in range(len(info)):
+            if i%3 == 1:
+                time_goal.append(float(info[i]))
+        print(time_goal)
+        
+    def get_youtube_video(self):
+        youtube_videos = []
+        info = dictionary_country[self.country]
+        for i in range(len(info)):
+            if i%3==2:
+                youtube_videos.append((info[i]))
+        print(youtube_videos)
+        

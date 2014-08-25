@@ -1,0 +1,4 @@
+mexico = world_cup("Mexico")
+print(mexico.get_goal_lengths())
+print(mexico.get_time_goal())
+print(mexico.get_youtube_video())

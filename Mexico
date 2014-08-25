@@ -1,0 +1,15 @@
+
+key_for_mex_game = []
+for i in range(45,48):
+    key_for_mex_game.append(split_text[i]) 
+for i in range(49,52):
+    key_for_mex_game.append(split_text[i]) 
+for i in range(53,56):
+    key_for_mex_game.append(split_text[i]) 
+for i in range(57,60):
+    key_for_mex_game.append(split_text[i]) 
+for i in range(61,64):
+    key_for_mex_game.append(split_text[i]) 
+
+dictionary_country["Mexico"]=key_for_mex_game
+print(dictionary_country["Mexico"])

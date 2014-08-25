@@ -1,0 +1,6 @@
+key_for_honduras_game = []
+for i in range(177,180):
+    key_for_honduras_game.append(split_text[i]) 
+    
+dictionary_country["Honduras"]=key_for_honduras_game
+print(dictionary_country["Honduras"])

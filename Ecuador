@@ -1,0 +1,6 @@
+key_for_ecuador_game = []
+for i in range(173,176):
+    key_for_ecuador_game.append(split_text[i]) 
+    
+dictionary_country["Ecuador"]=key_for_ecuador_game
+print(dictionary_country["Ecuador"])

@@ -1,0 +1,14 @@
+key_for_costa_rica_game = []
+for i in range(137,140):
+    key_for_costa_rica_game.append(split_text[i]) 
+for i in range(141,144):
+    key_for_costa_rica_game.append(split_text[i]) 
+for i in range(145,148):
+    key_for_costa_rica_game.append(split_text[i]) 
+for i in range(149,152):
+    key_for_costa_rica_game.append(split_text[i])
+for i in range(153,156):
+    key_for_costa_rica_game.append(split_text[i])
+    
+dictionary_country["Costa-Rica"]=key_for_costa_rica_game
+print(dictionary_country["Costa-Rica"])

@@ -1,0 +1,16 @@
+key_for_chile_game = []
+for i in range(65,68):
+    key_for_chile_game.append(split_text[i]) 
+for i in range(69,72):
+    key_for_chile_game.append(split_text[i]) 
+for i in range(73,76):
+    key_for_chile_game.append(split_text[i]) 
+for i in range(77,80):
+    key_for_chile_game.append(split_text[i])
+for i in range(81,84):
+    key_for_chile_game.append(split_text[i])
+for i in range(85,88):
+    key_for_chile_game.append(split_text[i])
+    
+dictionary_country["Chile"]=key_for_chile_game
+print(dictionary_country["Chile"])

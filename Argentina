@@ -1,0 +1,12 @@
+key_for_argentina_game = []
+for i in range(181,184):
+    key_for_argentina_game.append(split_text[i]) 
+for i in range(185,188):
+    key_for_argentina_game.append(split_text[i]) 
+for i in range(189,192):
+    key_for_argentina_game.append(split_text[i]) 
+for i in range(193,196):
+    key_for_argentina_game.append(split_text[i])
+    
+dictionary_country["Argentina"]=key_for_argentina_game
+print(dictionary_country["Argentina"])
